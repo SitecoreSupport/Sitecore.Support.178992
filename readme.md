@@ -1,5 +1,5 @@
 # Sitecore.Support.178992
-Brings DynamicFields feture back
+Brings the DynamicFields feature back
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.178992/blob/master/LICENSE).  
