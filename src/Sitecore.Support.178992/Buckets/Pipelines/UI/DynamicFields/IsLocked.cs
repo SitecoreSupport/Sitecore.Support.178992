@@ -5,6 +5,7 @@
   using System;
   using Sitecore.Diagnostics;
 
+  [Obsolete]
   internal class IsLocked : DynamicFieldsProcessor
   {
     public override void Process(DynamicFieldsArgs args)

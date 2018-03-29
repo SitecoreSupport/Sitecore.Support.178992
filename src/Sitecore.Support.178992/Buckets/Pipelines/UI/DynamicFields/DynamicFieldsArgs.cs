@@ -6,15 +6,16 @@
   using Sitecore.Buckets.Pipelines;
   using Sitecore.ContentSearch.Attributes;
 
-  internal class DynamicFieldsArgs : BucketsPipelineArgs
+  [Obsolete]
+  public class DynamicFieldsArgs : BucketsPipelineArgs
   {
-    internal DynamicFieldsArgs(Dictionary<string, string> quickActions, Item innerItem)
+    public DynamicFieldsArgs(Dictionary<string, string> quickActions, Item innerItem)
     {
       this.QuickActions = quickActions;
       this.InnerItem = innerItem;
     }
 
-    internal Dictionary<string, string> QuickActions { get; set; }
-    internal Item InnerItem { get; set; }
+    public Dictionary<string, string> QuickActions { get; set; }
+    public Item InnerItem { get; set; }
   }
 }

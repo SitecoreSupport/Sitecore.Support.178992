@@ -1,9 +1,11 @@
 ﻿namespace Sitecore.Support.Buckets.Pipelines.UI.DynamicFields
 {
+  using System;
   using System.Collections.Generic;
   using System.Linq;
 
-  internal class FetchDynamicFieldValues : DynamicFieldsProcessor
+  [Obsolete]
+  public class FetchDynamicFieldValues : DynamicFieldsProcessor
   {
     public override void Process(DynamicFieldsArgs args)
     {

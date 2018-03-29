@@ -1,11 +1,13 @@
 ﻿namespace Sitecore.Support.Buckets.Pipelines.UI.DynamicFields
 {
+  using System;
   using System.Collections.Generic;
   using System.Linq;
   using Sitecore.Data.Fields;
   using Sitecore.Diagnostics;
 
-  internal class ItemTags : DynamicFieldsProcessor
+  [Obsolete]
+  public class ItemTags : DynamicFieldsProcessor
   {
     public override void Process(DynamicFieldsArgs args)
     {

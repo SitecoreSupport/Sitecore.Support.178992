@@ -1,7 +1,9 @@
 ﻿namespace Sitecore.Support.Buckets.Pipelines.UI.DynamicFields
 {
+  using System;
   using Sitecore.Buckets.Pipelines;
-  internal abstract class DynamicFieldsProcessor : BucketsPipelineProcessor<DynamicFieldsArgs>
+  [Obsolete]
+  public abstract class DynamicFieldsProcessor : BucketsPipelineProcessor<DynamicFieldsArgs>
   {
 
   }

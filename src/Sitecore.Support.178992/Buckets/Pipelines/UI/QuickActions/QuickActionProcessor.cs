@@ -1,8 +1,10 @@
-﻿namespace Sitecore.Buckets.Pipelines.UI.QuickActions
+﻿namespace Sitecore.Support.Buckets.Pipelines.UI.QuickActions
 {
-  using Sitecore.Support.Buckets.Pipelines.UI.QuickActions;
+  using System;
+  using Sitecore.Buckets.Pipelines;
 
-  internal abstract class QuickActionProcessor : BucketsPipelineProcessor<QuickActionArgs>
+  [Obsolete]
+  public abstract class QuickActionProcessor : BucketsPipelineProcessor<QuickActionArgs>
   {
 
   }
